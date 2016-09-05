@@ -45,7 +45,7 @@ SPI/DMA, PWM and intel_idle
 
 # Not-yet-started/Unknown
 
-No Audio, no BT, no PSHSST will supported for now.
+No Audio, no BT, no  PSH - Platform Service Hub aka Quark MCU, SST - Smart Sound Technology for now.
 
 # Kernel 4.9
 
@@ -53,7 +53,7 @@ Mainline with devicetree will officially begin from 4.9
 
 # Due Credits
 
-Credits to Andy-Shev for all the current and future work.
+Credits to Andy Shevchenko for all the current and future work.
 
 https://github.com/andy-shev/linux/
 
