@@ -17,7 +17,7 @@ Your board needs to reboot to complete the flashing procedure, please do not unp
 
 You are now ready
 
-==For ubuntu 
+# For ubuntu 
 
 Please edit /etc/network/interfaces and include your ssid and password within double quotes.
 
@@ -27,16 +27,20 @@ Please edit /etc/network/interfaces and include your ssid and password within do
 
 Ap mode is also supported for Ubuntu
 
-==Current Kernel is 4.8RC4 Mainline supporting the following
+# Current Kernel is 4.8RC4 Mainline supporting the following
+
 Wireless
 External SD-Card
 Internal MMC
 SPI/I2C
 
-==Working-in-progress (streamline)
+# Working-in-progress (streamline)
+
 SPI / DMA, PWM and intel_idle
 
-==Not-yet-started/Unknown
+# Not-yet-started/Unknown
+
 No Audio, no BT, no PSHSST will supported for now.
 
-==Mainline with devicetree will officially begin from 4.9
+# Mainline with devicetree will officially begin from 4.9
+
