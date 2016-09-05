@@ -4,7 +4,6 @@ PLEASE REFER TO https://github.com/atlury/Intel-Edison-OS-Images/releases
 
 This repositories will feature binaries and tutorials on running debian, ubuntu, fedora and other operating systems on Intel Edison. Detailed tutorials and binary releases will be placed here! Published images may be burnt as follows
 
-
 flashall --recovery
 
 It will say ..... .................Recovery Success...You can now try a regular flash
@@ -17,7 +16,7 @@ Your board needs to reboot to complete the flashing procedure, please do not unp
 
 You are now ready
 
-# For ubuntu 
+# For ubuntu
 
 Please edit /etc/network/interfaces and include your ssid and password within double quotes.
 
@@ -28,7 +27,9 @@ Please edit /etc/network/interfaces and include your ssid and password within do
 
 Ap mode is also supported for Ubuntu
 
-# Current Kernel is 4.8RC4 Mainline supporting the following
+# Current Kernel 
+
+4.8RC4 Mainline supporting the following:-
 
 Wireless
 
@@ -46,8 +47,13 @@ SPI/DMA, PWM and intel_idle
 
 No Audio, no BT, no PSHSST will supported for now.
 
-# Mainline with devicetree will officially begin from 4.9
+# Kernel 4.9
 
-Credits to Andy_Shev for all the current and future work.
+Mainline with devicetree will officially begin from 4.9
+
+# Due Credits
+
+Credits to Andy-Shev for all the current and future work.
+
 https://github.com/andy-shev/linux/
 
